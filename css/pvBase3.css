@@ -1,0 +1,90 @@
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+body {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+
+}
+
+
+
+/* mainContent Styles */
+#mainContent {
+	position: absolute;
+	left: 15%;
+	width: 85%;
+	height: 90%;
+	background: #e5e5e5;	
+}
+
+#map {
+	margin-top: 6%;
+	margin-left: 55%;
+	min-width: 50px;
+  width: 35%;
+  min-height: 50px;
+  height: 50%;
+  border: 1px solid blue;
+}
+
+#divider {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	height: 50%;
+	width: 1px;
+	border-right: 1px black solid;
+}
+
+#main-col1 {
+	width: 350px;
+	top: 10%;
+	margin-left: 25%;
+	margin-top: 10%;
+}
+
+#main-col2 {
+	width: 350px;
+	margin-left: 50%;
+	margin-top: -22%;
+}
+
+#tab-panel-contactInfo{
+	width: 350px;
+	margin-left: 15%;
+	margin-top: -28%;
+}
+
+
+
+
+/* sidebar Styles */
+#side {
+  position: absolute;
+  height: 100%;
+  width: 15%;
+  left: 0;
+  background: black;
+}
+
+
+
+/* footer Styles */
+#footer {
+	position: absolute;
+	border-top: 1px black solid;
+	left: 15%;
+	bottom: 0;
+	width: 85%;
+	height: 10%;
+	background: #e5e5e5;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+

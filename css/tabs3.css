@@ -1,0 +1,102 @@
+/********** TABS **********/
+.tab-list {
+  margin: 0;
+  padding: 0;}
+
+.tab-list li {
+  display: inline-block;
+  width: 100%;
+  list-style-type: none;
+  background-color: black;
+  font-family: 'Jacques Francois', serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;}
+
+.tab-list li a {
+  color: #f2f2f2;
+  display: block;
+  height: 40px;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-decoration: none;}
+
+
+/********** HOVER STATES **********/
+.tab-list li.active, .tab-list li.hover {
+  background-color: black;
+  background: #e5e5e5;
+  border: 3px solid #e5e5e5;}
+
+.tab-list li.active a, .tab-list li a:hover {
+  color: #666;
+  background-color: #e5e5e5;}
+
+
+/********** PANELS **********/
+.tab-panel {
+  display: none;
+  background-color: #e5e5e5;
+  color: #666;
+  height: 100%;
+  width: 97%;
+  overflow: auto;}
+
+.tab-panel.active {
+  display: block;}
+
+.tab-panel {
+	padding: 20px;
+}
+/********** Home PANELS **********/
+
+
+.home_contentText{
+	margin-top: 80%;
+}
+
+
+/********** About PANELS **********/
+.tab-panel-picAboutContent p{
+	text-align: center;
+}
+.tab-panel-textAboutContent p{
+		
+}
+/********** Menu PANELS **********/
+
+.tab-panel-menu{
+	text-align: center;
+}
+/********** Maps PANELS **********/
+
+/********** Contact PANELS **********/
+.tab-panel-contact{
+	margin-left: 50%;
+	margin-top: -12%;
+}
+
+.tab-panel-contact p, h2{
+	text-align: center;
+}
+
+
+.tab-panel-divider{
+	left: 25%;
+	position: absolute;
+	top: 85px;
+	height: 1px;
+	width: 50%;
+	border-bottom: 1px black solid;
+}
+
+.tab-panel-divider2{
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	height: 50%;
+	width: 1px;
+	border-right: 1px black solid;
+}
+
+
+  
