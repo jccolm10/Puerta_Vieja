@@ -42,16 +42,15 @@ body {
 }
 
 #main-col1 {
-	width: 350px;
-	top: 10%;
-	margin-left: 25%;
-	margin-top: 10%;
+	float: left;
+	width: 25%;
+	margin-left: 10px;
 }
 
 #main-col2 {
-	width: 350px;
-	margin-left: 50%;
-	margin-top: -22%;
+	float: right;
+	width: 25%;
+	margin-right: 10px;
 }
 
 #tab-panel-contactInfo{

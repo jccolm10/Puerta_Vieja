@@ -59,14 +59,14 @@
 .tab-panel-picAboutContent p{
 	text-align: center;
 }
-.tab-panel-textAboutContent p{
-		
-}
+
 /********** Menu PANELS **********/
 
-.tab-panel-menu{
-	text-align: center;
+.tab-panel-menulist {
+	width: 40%;
+	margin-top: 5%;
 }
+
 /********** Maps PANELS **********/
 
 /********** Contact PANELS **********/
