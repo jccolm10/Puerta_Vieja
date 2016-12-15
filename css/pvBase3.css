@@ -34,32 +34,48 @@ body {
 
 #divider {
 	position: absolute;
-	top: 25%;
-	left: 50%;
-	height: 50%;
+	top: 20%;
+	left: 22%;
+	height: 40%;
 	width: 1px;
 	border-right: 1px black solid;
 }
 
+#tab-panel-menulist {
+	float: left;
+	height:10%;
+	width: 40%;
+	margin-top: 2%;
+	margin-left: 5%;
+}
+
+#tab-panel-menulist2 {
+	float:right;
+	height: 100%;
+	overflow: hidden;
+	width: 40%;
+	margin-top: 2%;
+	margin-right: 10%;
+}
+
 #main-col1 {
 	float: left;
-	width: 25%;
+	width: 40%;
 	margin-left: 10px;
 }
 
 #main-col2 {
 	float: right;
-	width: 25%;
+	width: 40%;
 	margin-right: 10px;
 }
+
 
 #tab-panel-contactInfo{
 	width: 350px;
 	margin-left: 15%;
 	margin-top: -28%;
 }
-
-
 
 
 /* sidebar Styles */
@@ -70,7 +86,6 @@ body {
   left: 0;
   background: black;
 }
-
 
 
 /* footer Styles */

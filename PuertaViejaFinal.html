@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/pvBase3.css"/> 
 	<link rel="stylesheet" href="css/tabs3.css" />
 	<link rel="stylesheet" href="css/slideshow.css" />
+	<link rel="stylesheet" href="css/slideshowM.css" />
 
   </head>
 
@@ -17,6 +18,7 @@
         <div class="tab-panel active" id="tab-1">
 			<div class="tab-panel-home-textContent">
 			<div class="home_contentPictures">
+			
 			<div class="slideshow-container">
 			<div class="mySlides fade">
 			<div class="numbertext">1 / 3</div>
@@ -48,7 +50,6 @@
            <p>Welcome, Bienvenidos!  to Puerta Vieja Mexican Grill, Keller's newest and most exciting Latin American restaurant serving delicious foods of Mexico and El Salvador. </p>
 		   <p>Top notch Tex Mex joined by dishes from El Salvador make Puerta Vieja Mexican Grill unique in its approach to food from south of the border. On the Tex Mex side, you'll find favorites like Burritos, Chimichangas, Enchiladas, and more. But for a real treat, and an excursion into the finest of Latin American cuisine, you'll want to try our authentic Salvadorean fare such as Pupusas, Sopa de Mariscos con Langosta, Pescado Frito, Paella Salvadoreña, and other Salvadorean delights. </p>
 		   
-		   
 		   </div><!--end tab-panel-home-textContent-->
 		   </div>
         </div>
@@ -72,7 +73,8 @@
             <h2>Menu</h2>
 			<div class="tab-panel-divider"></div>
 		<div class="tab-panel-menu">
-		<div class="tab-panel-menulist">
+		<div class="mainMenuContent">
+		<div id="tab-panel-menulist"><!--Menu list-->
 		 <div id="main-col1">
 		<h3>Option 1</h3>
 		<p><a href="../science/">Pollo-Chicken</a></p>
@@ -83,7 +85,6 @@
 		<p><a href="../science/">Mariscos-Seafood(Pervuian)</a></p>
 		<p><a href="../science/">Carnes-Meat</a></p>
 		</div><!-- end main-col1-->
-		
 		<div id="main-col2">
 		<h3>Option 2</h3>
 		<p><a href="../science/">Lunch Specials</a></p>
@@ -94,8 +95,45 @@
 		<p><a href="../science/">Para los ninos</a></p>
 		<p><a href="../science/">Whole Menu</a></p>
 		</div><!-- end main-col2-->
-		<div id="divider"></div>
 		</div>
+		<div id="tab-panel-menulist2"><!--Menu list-->
+		 <div class="content">
+		<img class="mySlidesM" src="images/food1.jpg">
+		<img class="mySlidesM" src="images/food2.jpg">
+		<img class="mySlidesM" src="images/food3.jpg">
+		<img class="mySlidesM" src="images/food4.jpg">	
+		<img class="mySlidesM" src="images/food5.jpg">	
+		<img class="mySlidesM" src="images/food6.jpg">			
+		</div>
+		</div>
+		</div>		
+		
+		
+		<!--tab-panel-menu-listImages-->
+		<div class="tab-panel-menu-listImages">
+		<div class="col">
+		<img class="demoM" src="images/food1.jpg" onclick="currentDiv(1)" style=" width: 100%; height: 150px; ">
+		</div>
+		<div class="col">
+		<img class="demoM" src="images/food2.jpg" onclick="currentDiv(2)" style=" width: 100%; height: 150px; ">
+		</div>
+		<div class="col">
+		<img class="demoM" src="images/food3.jpg" onclick="currentDiv(3)" style=" width: 100%; height: 150px; ">
+		</div>
+		<div class="col">
+		<img class="demoM" src="images/food4.jpg" onclick="currentDiv(4)" style=" width: 100%; height: 150px; ">
+		</div>
+		<div class="col">
+		<img class="demoM" src="images/food5.jpg" onclick="currentDiv(5)" style=" width: 100%; height: 150px; ">
+		</div>
+		<div class="col">
+		<img class="demoM" src="images/food6.jpg" onclick="currentDiv(6)" style=" width: 100%; height: 150px; ">
+		</div>
+		<div class="col">
+		<img class="demoM" src="images/aboutDoor3.jpg" onclick="currentDiv(7)" style=" width: 100%; height: 150px; ">
+		</div>
+		</div>
+		
 		</div><!--end tab-panel-menulist-->
 		</div><!--end menu-->
 		
@@ -174,6 +212,7 @@ emcp.edu">Juan Colmenero</a></p>
 <script src="js/tabs.js"></script>
 <script src="js/map.js"></script>
 <script src="js/slideshow.js"></script>
+<script src="js/slideshowM.js"></script>
 <script async defer
 	src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC5apWxfJQHrU0oPIltaqTD4f_B1lTVCXY&callback=initMap" ></script>
 

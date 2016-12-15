@@ -59,12 +59,36 @@
 .tab-panel-picAboutContent p{
 	text-align: center;
 }
-
+ 
 /********** Menu PANELS **********/
+.tab-panel-menu {
+	width: 100%;
+	height: 100%;
+}
 
-.tab-panel-menulist {
-	width: 40%;
+.tab-panel-menu-listImages{
+	margin-left: 3%;
 	margin-top: 5%;
+	height: 25%;
+}
+
+
+.mainMenuContent {
+	width: 100%;
+	height: 45%;
+}
+
+
+.demoM {cursor:pointer;}
+.col {
+	display: inline-block;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+}
+
+.row-padding{
+width: 100%;
 }
 
 /********** Maps PANELS **********/
