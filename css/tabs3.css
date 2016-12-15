@@ -24,8 +24,8 @@
 /********** HOVER STATES **********/
 .tab-list li.active, .tab-list li.hover {
   background-color: black;
-  background: #e5e5e5;
-  border: 3px solid #e5e5e5;}
+  background: #fdf9d3;
+  border: 5px solid #fdf9d3;}
 
 .tab-list li.active a, .tab-list li a:hover {
   color: #666;
@@ -35,7 +35,7 @@
 /********** PANELS **********/
 .tab-panel {
   display: none;
-  background-color: #e5e5e5;
+  background-color: #fdf9d3;
   color: #666;
   height: 100%;
   width: 97%;
